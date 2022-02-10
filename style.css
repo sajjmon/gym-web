@@ -126,11 +126,6 @@ header .navbar a:hover {
   background-color: red;
 }
 
-.button-back:active {
-  background-color: #3e8e41;
-  box-shadow: 0 5px #666;
-}
-
 .section-2 {
   padding-top: 20px;
   display: flex;
@@ -188,6 +183,28 @@ header .navbar a:hover {
   padding-bottom: 40px;
 }
 
+.c {
+  display: flex;
+  justify-content: center;
+  background-color: #f0eaea;
+  padding-bottom: 50px;
+}
+
+.button-fav {
+  color: white;
+  cursor: pointer;
+  font-size: 25px;
+  text-align: center;
+  transition: 0.5s;
+  background-color: red;
+  border: none;
+  padding: 5px 10px;
+}
+
+.button-fav:hover {
+  background-color: #e8575e;
+}
+
 .textheading {
   display: grid;
   justify-content: center;
@@ -208,6 +225,74 @@ header .navbar a:hover {
   padding-bottom: 30px;
   border: 40px;
   width: 60%;
+}
+
+.text-4 {
+  display: flex;
+  justify-content: center;
+}
+
+.colum {
+  width: 20%;
+  padding: 10px;
+  margin: 50px;
+  text-align: center;
+}
+
+.colum h2 {
+  display: flex;
+  align-items: center;
+  border-width: 0px 0px 2px 0px;
+  border-color: #e85761;
+  border-style: solid;
+  padding-bottom: 10px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.colum p {
+  padding: 10px;
+}
+
+.button-u {
+  display: flex;
+  justify-content: center;
+}
+
+.costumers {
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 30px;
+  text-transform: uppercase;
+}
+
+.pic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image img {
+  flex-basis: 40%;
+  border-radius: 80px;
+  padding-bottom: 20px;
+}
+
+.text-5 {
+  padding-left: 50px;
+  color: white;
+  padding-bottom: 40px;
+  width: 50%;
+}
+
+.text-5 h3 {
+  margin-bottom: 10px;
+}
+
+.b-color {
+  background-color: black;
 }
 
 /*# sourceMappingURL=style.css.map */
