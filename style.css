@@ -146,7 +146,7 @@ header .navbar a:hover {
   margin: auto;
   padding-top: 30px;
   padding-bottom: 30px;
-  width: 50%;
+  max-width: 50%;
 }
 
 .text-2 {
@@ -224,7 +224,7 @@ header .navbar a:hover {
   padding-top: 30px;
   padding-bottom: 30px;
   border: 40px;
-  width: 60%;
+  max-width: 50%;
 }
 
 .text-4 {
@@ -278,6 +278,7 @@ header .navbar a:hover {
   flex-basis: 40%;
   border-radius: 80px;
   padding-bottom: 20px;
+  flex-wrap: wrap;
 }
 
 .text-5 {
@@ -285,6 +286,7 @@ header .navbar a:hover {
   color: white;
   padding-bottom: 40px;
   width: 50%;
+  flex-wrap: wrap;
 }
 
 .text-5 h3 {
@@ -293,6 +295,45 @@ header .navbar a:hover {
 
 .b-color {
   background-color: black;
+}
+
+.img img {
+  width: 500px;
+  height: auto;
+}
+
+.heading {
+  display: flex;
+  padding: 30px;
+  justify-content: center;
+}
+
+.text-6 {
+  width: 550px;
+  padding: 30px;
+}
+
+.footer-holder {
+  background-color: #646464;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.fa {
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  padding: 30px;
+}
+
+.text-7 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 35px;
 }
 
 /*# sourceMappingURL=style.css.map */
