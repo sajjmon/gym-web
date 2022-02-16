@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel=" stylesheet " href="style.css ">
     <title>GYM</title>
 </head>
@@ -25,20 +27,20 @@
     </nav>
 </header>
 
-<div class="about-us">
+<div class="about-us" data-aos="fade-right">
     <div class="section-2">
         <h2>About Us - Our facility</h2>
     </div>
-    <p class="section-3">here are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum,
+    <p class="section-3" data-aos="fade-right" data-aos-delay="200">here are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum,
         you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary</p>
-    <p class="section-3">t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here,
+    <p class="section-3" data-aos="fade-right" data-aos-delay="400">t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here,
         content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various
         versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
 
     </p>
 </div>
 
-<div class="slideshow-container">
+<div class="slideshow-container" data-aos="fade-right" data-aos-delay="600">
 
     <!-- Full-width images with number and caption text -->
     <div class="mySlides fade">
@@ -68,15 +70,43 @@
 </div>
 
 <div class="workers">
-    <div class="section-2">
+    <div class="section-2" data-aos="fade-right">
         <h2>We on fittnesgym</h2>
 
     </div>
-    <div class="section-3">
+    <div class="section-3" data-aos="fade-right" data-aos-delay="300">
         <h4>As interested as we are in your development, we are careful to stay educated and up to date about the latest in physical and mental training!</h4>
+    </div>
+    <div class="pic-border">
+        <div class="colums" data-aos="fade-right" data-aos-delay="400">
+            <img src="img/face1.jpg" alt="Snow">
+            <h4 class="texting-w">Jenny Goal</h4>
+            <p class="texting-p">Personal Trainer</p>
+            <p class="texting-p">Dietician</p>
+            <p class="texting-p">Sport -& sports masseur</p>
+
+        </div>
+        <div class="colums" data-aos="fade-right" data-aos-delay="600">
+            <img src="img/face2.jpg" alt="Forest">
+            <h4 class="texting-w">Jake Wawe</h4>
+            <p class="texting-p">Personal Trainer</p>
+            <p class="texting-p">Group instructor</p>
+        </div>
+        <div class="colums" data-aos="fade-right" data-aos-delay="800">
+            <img src="img/face3.jpg" alt="Mountains">
+            <h4 class="texting-w">Paul Grece</h4>
+            <p class="texting-p">Mental Coach</p>
+            <p class="texting-p">CBT Therapist</p>
+
+        </div>
+
     </div>
 
 </div>
+
+
+
+
 
 
 
@@ -110,7 +140,21 @@
 
     </div>
 </div>
-
+<script>
+    function toggleNavbar(collapseID) {
+        document.getElementById(collapseID).classList.toggle("hidden ");
+        document.getElementById(collapseID).classList.toggle("block ");
+    }
+</script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js "></script>
+<script>
+    AOS.init({
+        delay: 200,
+        duration: 1500,
+        once: false,
+        mirror: false,
+    });
+</script>
 
 
 <script src="script.js "></script>
