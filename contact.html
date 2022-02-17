@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel=" stylesheet " href="style.css ">
+    <title>GYM</title>
+</head>
+
+<header>
+    <i class="fas fa-dumbbell">FitnessGym</i>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="favours.html">Favours</a>
+        <a href="contact.html">contact</a>
+
+
+    </nav>
+</header>
+<div class="color-fav">
+    <h3 class="section-2">Contact Us</h3>
+    <p class="text-4">Do you have questions about our services, interested in a lecture or want to book an appointment?</p>
+    <p class="text-4">Contact us using the form below or call us on 070-390 08 39 we will help you! We look forward to your message!</p>
+</div>
+<div class="position-contact">
+
+
+    <form action="action_page.php">
+
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+        <label for="email">E-mail</label>
+        <input type="text" id="email" name="email" placeholder="Your E-mail...">
+
+
+
+        <label for="country">Country</label>
+        <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+      <option value="usa">Sweden</option>
+      <option value="usa">Switzerland</option>
+    </select>
+
+        <label href="#" for="subject">Subject</label>
+        <textarea href="#" id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+        <input href="#" type="submit" value="Submit">
+
+    </form>
+</div>
+
+<div class="footer-holder">
+
+
+    <div class="footer">
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+    </div>
+    <div class="footer-row">
+        <div class="text-7">
+            <i class="fa fa-phone"></i>
+            <a class="a-tag" href="tel:+46703900839"> 070390839</a>
+        </div>
+        <div class="text-7">
+            <i class="fa fa-envelope"></i>
+            <a class="a-tag" href="mailto:simonbergstrom@hotmail.com"> simonbergstrom@hotmail.com</a>
+        </div>
+        <div class="text-7">
+            <img src="img/place.svg" class="fa">
+            <a class="a-tag" href="https://www.google.se/maps/place/Oberwiesenstrasse+73A,+8050+Z%C3%BCrich/@47.41202,8.5287985,17z/data=!3m1!4b1!4m5!3m4!1s0x47900a8ca1153799:0x76f9a33e198f58f5!8m2!3d47.41202!4d8.5309872">Oberwiesenstrasse 73A,<br> 8050 Zürich</a>
+        </div>
+
+    </div>
+</div>
+<script>
+    function toggleNavbar(collapseID) {
+        document.getElementById(collapseID).classList.toggle("hidden ");
+        document.getElementById(collapseID).classList.toggle("block ");
+    }
+</script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js "></script>
+<script>
+    AOS.init({
+        delay: 200,
+        duration: 1500,
+        once: false,
+        mirror: false,
+    });
+</script>
+
+
+<script src="script.js "></script>
+</body>
+
+</html>
+
+<body>
